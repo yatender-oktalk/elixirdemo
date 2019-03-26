@@ -1,0 +1,5 @@
+<div class="jumbotron">
+  <h2><%= gettext "Welcome to %{name}!", name: "Elixir Demo" %></h2>
+  <%# <p class="lead">A productive web framework that<br />does not compromise speed and maintainability.</p> %>
+  <h2><span style='font-size:50px;'>&#931;</span> 1.. <%= @num %> = <%= @contents %> </h2>
+</div>
